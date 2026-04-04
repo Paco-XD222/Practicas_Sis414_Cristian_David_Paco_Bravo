@@ -24,7 +24,11 @@ public class Practica2Controller {
         lista.add(new Pelicula("Spiderman", "Accion", 2002, "Sam Raimi"));
         lista.add(new Pelicula("Doctor Strange", "Fantasia", 2016, "Scott Derrickson"));
     }
-
+    // verificaion render
+    @GetMapping("/")
+    public String inicio() {
+        return "API de peliculas funcionando 🚀";
+    }
     // 🔹 SIN parámetros
     @GetMapping("/futuro")
     public String futuro() {
