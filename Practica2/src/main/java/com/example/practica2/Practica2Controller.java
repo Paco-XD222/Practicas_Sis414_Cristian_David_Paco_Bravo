@@ -55,6 +55,10 @@ public class Practica2Controller {
 
         return "no existe";
     }
+    @GetMapping("/peliculas")
+    public List<Pelicula> obtenerTodas() {
+        return lista;
+    }
 
     //  POST
     @PostMapping("/pelicula")
