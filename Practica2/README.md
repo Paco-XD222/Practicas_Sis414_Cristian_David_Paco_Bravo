@@ -1,25 +1,74 @@
-# Practica 2 - API de Películas
+# Practica 3 - API de Películas
 
-## Estudiante
+## 👨‍💻 Estudiante
+
 Cristian David Paco Bravo
 
-## Descripción
+---
+
+## 📌 Descripción
+
 API desarrollada con Spring Boot que permite gestionar una lista de películas.
+Incluye operaciones CRUD y documentación interactiva con Swagger.
 
-## Endpoints
+---
 
-### GET sin parámetros
-- /peliculas → lista de películas
-- /futuro → mensaje personal
+## 🌐 Despliegue en Render
 
-### GET con parámetros
-- /pelicula?nombre=&genero=&anio=&director=
+API:
+https://practicas-sis414-cristian-david-paco.onrender.com/
 
-### POST
-- /pelicula → agregar película
+Swagger:
+https://practicas-sis414-cristian-david-paco.onrender.com/swagger-ui/index.html
 
-## Tecnologías
-- Java
-- Spring Boot
-- Render
-- GitHub
+---
+
+## 🚀 Endpoints
+
+### 🔹 GET sin parámetros
+
+* `/` → verificar API
+* `/peliculas` → lista de películas
+* `/futuro` → mensaje personal
+
+---
+
+### 🔹 GET con parámetros
+
+* `/pelicula?nombre=&genero=&anio=&director=` → buscar película
+
+---
+
+### 🔹 POST
+
+* `/pelicula` → agregar película
+
+---
+
+### 🔹 PUT
+
+* `/pelicula` → actualizar película
+
+---
+
+### 🔹 DELETE
+
+* `/pelicula` → eliminar película
+
+---
+
+## 🛠 Tecnologías
+
+* Java
+* Spring Boot
+* Gradle
+* Swagger (OpenAPI)
+* Render
+* GitHub
+
+---
+
+## 📖 Notas
+
+* La API utiliza una lista en memoria (no base de datos).
+* Swagger permite probar todos los endpoints directamente desde el navegador.
