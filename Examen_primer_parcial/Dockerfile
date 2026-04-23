@@ -8,7 +8,7 @@ COPY . .
 
 RUN gradle build -x test
 
-
+# cambios para la nueva rama pero solo este comentario
 # FASE 2: EJECUCIÓN
 
 FROM eclipse-temurin:21-jdk
